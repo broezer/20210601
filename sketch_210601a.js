@@ -14,9 +14,9 @@ function setup() {
   
   for (let j = 0; j < 10; j++) {
     for (let i = 0; i < 10; i++) {
-      let x = 18 + (i * 40);
-      let y = 18 + (j * 40);
-      let w = 5;
+      let x = ((width/100) * 4.5) + (i * width/10);
+      let y = ((width/100) * 4.5) + (j * width/10);
+      let w = width/100;
       noStroke();
       fill(200);
       circle(x, y, w);
